@@ -14,7 +14,7 @@ public class Date
         this.y=d.y;
     }
     public void showDate(){
-        System.out.println(d + "/" + m + "/" + y);
+        System.out.println("0"+d + "/" + "0"+m + "/" + y);
     }
     public void showDate(char c){
         System.out.println(d+""+c+m+""+c+y);
